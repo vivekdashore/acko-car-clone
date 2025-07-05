@@ -100,6 +100,12 @@
   align-items: center;
   border-radius: 20px;
   position: relative;
+  cursor: pointer;
+}
+.grid-items:hover{
+    transform: translateY(-10px);
+    transition:all 0.3s ease-out;
+    
 }
 .grid-items img{
     width: 90px;
